@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @theme {
     --font-Ephesis:"Ephesis";
-    --font-Garamont:"Cormorant Garamond"
+    --font-Garamont:"Cormorant Garamond";
+    --font-Releway:"Raleway";
 }
