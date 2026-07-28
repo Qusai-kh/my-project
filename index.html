@@ -9,12 +9,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
     <link href="./src/output.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="absolute w-full bg-white/60">
 <div>
-    <ul class="container  m-auto flex bg-transparent   justify-around ">
+    <ul class="container  mx-auto  flex justify-around ">
         <li class=" py-10 md:hidden"><img src="./pics/header/Menu.svg" alt="Menu"> </li>
         <ul class="  py-10 hidden  md:flex lg:gap-16.75 md:gap-10">
         <li>
@@ -45,5 +48,14 @@
     </ul>
 </div>
     </header>
+    <section class="hero">
+        <div class="heroimg">
+            <img class=" w-full object-cover" src="./pics/hero/hero pic.png" alt="hero pic">
+        </div>
+        <div class="hidden md:block md:absolute md:inset-0 lg:flex lg:flex-col  md:text-center lg:pt-65 md:pt-60 xl:pt-91">
+            <p class="text-[30px] lg:text-[64px] font-Ephesis text-[#BBA085]">Your Dream Wedding Awaits</p>
+            <p class=" text-[30px] lg:text-[80px] font-semibold text-white font-Garamont">Artistic Wedding Photography</p>
+        </div>
+    </section>
 </body>
 </html>
