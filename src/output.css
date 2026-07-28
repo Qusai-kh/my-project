@@ -681,6 +681,27 @@
     .\32 xl\:w-20 {
       width: calc(var(--spacing) * 20);
     }
+    .\32 xl\:w-50 {
+      width: calc(var(--spacing) * 50);
+    }
+    .\32 xl\:w-60 {
+      width: calc(var(--spacing) * 60);
+    }
+    .\32 xl\:w-70 {
+      width: calc(var(--spacing) * 70);
+    }
+    .\32 xl\:w-80 {
+      width: calc(var(--spacing) * 80);
+    }
+    .\32 xl\:w-82 {
+      width: calc(var(--spacing) * 82);
+    }
+    .\32 xl\:w-86 {
+      width: calc(var(--spacing) * 86);
+    }
+    .\32 xl\:w-90 {
+      width: calc(var(--spacing) * 90);
+    }
     .\32 xl\:text-\[24px\] {
       font-size: 24px;
     }
